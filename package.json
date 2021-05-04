@@ -1,0 +1,25 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "Wallaby Tutorial",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallabyjs/tutorial.git"
+  },
+  "keywords": [
+    "Wallaby.js",
+    "Tutorial"
+  ],
+  "author": "Wallaby Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wallabyjs/tutorial/issues"
+  },
+  "homepage": "https://github.com/wallabyjs/tutorial#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.14.1",
+    "jest": "^26.6.3"
+  }
+}
