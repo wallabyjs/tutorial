@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`car accelerates 1`] = `
+Car {
+  "engine": "2.85 L",
+  "power": "97 kW",
+  "speed": 88,
+}
+`;
