@@ -16,4 +16,9 @@ describe('car', () => {
     car.accelerate();
     expect(car).toMatchSnapshot();
   });
+
+  it('brakes', () => {
+    car.brake();
+    expect(car.speed).toBe(87);
+  });
 });

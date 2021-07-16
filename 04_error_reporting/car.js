@@ -8,4 +8,8 @@ export default class Car {
   accelerate() {
     this.speed++;
   }
+
+  brake() {
+    this._speed--;
+  }
 }
