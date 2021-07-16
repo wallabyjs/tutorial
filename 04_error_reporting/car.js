@@ -10,6 +10,6 @@ export default class Car {
   }
 
   brake() {
-    this._speed--;
+    speed--;
   }
 }
