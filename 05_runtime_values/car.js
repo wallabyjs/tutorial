@@ -14,9 +14,11 @@ export default class Car {
 
   accelerate() {
     this.speed++;
+    return 'going faster';
   }
 
   brake() {
-    speed--;
+    this.speed--;
+    return 'going slower';
   }
 }
