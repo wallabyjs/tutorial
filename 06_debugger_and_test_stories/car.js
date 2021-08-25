@@ -26,20 +26,3 @@ export default class DeLorean {
     return this._inFuture;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
