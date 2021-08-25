@@ -9,7 +9,7 @@ describe('car', () => {
   });
 
   it('has correct engine', () => {
-    expec(car.engine).toBe('2.94 L');
+    expect(car.engine).toBe('2.94 L');
   });
 
   it('accelerates', () => {

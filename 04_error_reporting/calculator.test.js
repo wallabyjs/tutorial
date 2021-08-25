@@ -1,7 +1,7 @@
 import {add, multiply} from './calculator'
 
 it('adds numbers', () => {
-  expect(add(1, 2)).toBe(3);
+  expec(add(1, 2)).toBe(3);
 });
 
 it('multiplies numbers', () => {
