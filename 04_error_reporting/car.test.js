@@ -17,8 +17,11 @@ describe('car', () => {
     expect(car).toMatchSnapshot();
   });
 
+  it.todo('decelerates');
+
   it('brakes', () => {
     car.brake();
     expect(car.speed).toBe(87);
   });
+
 });

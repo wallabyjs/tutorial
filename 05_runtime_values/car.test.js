@@ -9,8 +9,8 @@ describe('car', () => {
   });
 
   it('has correct engine', () => {
-    // console.log(car);
-    expect(car.engine).toBe('2.94 L');
+    const engine = car.engine;
+    expect(engine).toMatchSnapshot();
   });
 
   it('brakes', () => {

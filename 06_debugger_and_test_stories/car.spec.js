@@ -9,14 +9,14 @@ describe('DeLorean', () => {
     expect(car.inFuture()).toBe(false);
 
     car.accelerateTo(0);
-    expect(car.inFuture()).toBe(false);
+    expect(car.inFuture()).toBe(false); 
   });
 
   it('should go to the future when is fast enough', () => {
-    const car = new Car(1.89);
-    car.accelerateTo(88);
-    expect(car.inFuture()).toBe(true);
-  });
-
-});
+    const car = new Car(2.55);
+    car.accelerateTo(88);       
+    expect(car.inFuture()).toBe(true);    
+  }); 
+  
+})
 

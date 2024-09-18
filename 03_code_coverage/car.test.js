@@ -8,12 +8,12 @@ describe('car', () => {
     car = new Car(88);
   });
 
-  it('accelerates', () => {
+  it.skip('accelerates', () => {
     // car.accelerate();
     // expect(car.speed).toBe(89);
   });
 
-  it('brakes', () => {
+  it.skip('brakes', () => {
     // car.brake();
     // expect(car.speed).toBe(87);
   });

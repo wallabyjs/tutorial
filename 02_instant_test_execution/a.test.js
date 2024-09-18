@@ -1,12 +1,14 @@
-it('slower test', () => {
-  return new Promise(y => {
-    setTimeout(() => {
-      expect(1).toBe(1);
-      y();
-    }, 1000);
+describe('example', () => {
+  it('slower test', () => {
+    return new Promise(y => {
+      setTimeout(() => {
+        expect(1).toBe(1);
+        y();
+      }, 1000);
+    });
   });
-});
 
-it('faster test', () => {
-  expect(1).toBe(2);
+  it('faster test', () => {
+    expect(1).toBe(22); 
+  });
 });
