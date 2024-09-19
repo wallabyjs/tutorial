@@ -10,7 +10,6 @@ export default class Car {
     this.length = 4267;
     this.width = 1988;  
     this.speed = initialSpeed; 
-    console.log(this);
   }
 
   accelerate() {

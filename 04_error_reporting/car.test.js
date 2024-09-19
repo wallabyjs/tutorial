@@ -8,10 +8,6 @@ describe('car', () => {
     car = new Car(88);
   });
 
-  it('has correct engine', () => {
-    expect(car.engine).toBe('2.94 L');
-  });
-
   it('accelerates', () => {
     car.accelerate();
     expect(car).toMatchSnapshot();

@@ -30,7 +30,7 @@ export default class DeLorean {
   }
 
   _accelerateTo(speed) {
-    for (let i = this._speed; i <= speed; i++) {
+    for (let i = this._speed; i <= speed; i += 2) {
       this._speed = i;
     }
   }

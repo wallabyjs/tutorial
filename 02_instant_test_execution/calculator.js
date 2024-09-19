@@ -3,5 +3,6 @@ export function add(a, b) {
 }
 
 export function min(a, b) {
-  throw new Error('Not implemeted');
+  throw new Error('Not implemented');
+  // return a > b ? b : b;
 }

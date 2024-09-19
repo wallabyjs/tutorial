@@ -3,6 +3,7 @@ export default class Car {
     this.engine = '2.85 L';
     this.power = '97 kW';
     this.speed = initialSpeed;
+    console.log(this);
   }
 
   accelerate() {

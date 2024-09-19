@@ -1,43 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`car has correct engine 1`] = `
-Object {
-  "spec": Object {
+{
+  "spec": {
     "aspiration": "Twin Turbocharged",
-    "bore": "91mm",
+    "bore": "93mm",
     "compression_ratio": "7.5:1",
     "cooling_system": "Water-cooled",
     "displacement": "2.85L",
     "engine_code": "ZMJ-159-TT",
-    "exhaust_system": "Stainless Steel Dual Exhaust",
+    "exhaust_system": "Stainless Steel Exhaust",
     "firing_order": "1-6-3-5-2-4",
     "fuel_system": "Bosch K-Jetronic Fuel Injection",
     "fuel_type": "Gasoline",
     "horsepower": 250,
     "ignition_system": "Electronic Ignition",
     "make": "DeLorean",
-    "model": "PRV ZMJ-159 Twin Turbo (Aftermarket)",
-    "modifications": Object {
+    "model": "PRV ZMJ-158 Twin Turbo (Aftermarket)",
+    "modifications": {
       "fuel_injectors": "High-flow Fuel Injectors",
       "intercooler": "Air-to-Air Intercooler",
       "tuning": "Custom ECU Tune",
     },
-    "redline": 6500,
+    "redline": 7500,
     "stroke": "73mm",
-    "torque": Object {
+    "torque": {
       "unit": "lb-ft",
-      "value": 280,
+      "value": 285,
     },
-    "turbocharger": Object {
-      "boost_pressure": Object {
+    "turbocharger": {
+      "boost_pressure": {
         "unit": "psi",
-        "value": 10,
+        "value": 7,
       },
       "brand": "Garrett",
     },
     "type": "V6",
     "valvetrain": "SOHC",
-    "weight": Object {
+    "weight": {
       "unit": "lbs",
       "value": 375,
     },
