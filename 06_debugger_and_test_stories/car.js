@@ -13,7 +13,7 @@ export default class DeLorean {
     this._accelerateTo(speed);
 
     if (this._speed === 0) {
-      this._inFuture = true;
+      this._inFuture = false;
       return;
     }
 
@@ -30,7 +30,7 @@ export default class DeLorean {
   }
 
   _accelerateTo(speed) {
-    for (let i = this._speed; i <= speed; i += 2) {
+    for (let i = this._speed; i <= speed; i += 4) {
       this._speed = i;
     }
   }
