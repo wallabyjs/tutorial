@@ -2,18 +2,18 @@ import { add, min } from './calculator'
 
 describe('calculator', () => {
 
-  it('slower test', () => {
+  it('adds numbers', () => {
+    const result = add(2, 2); //
+    expect(result).toBe(4);
+  });
+
+  it('calculates Fibonacci sequence', () => {
     return new Promise(y => {
       setTimeout(() => {
         expect(1).toBe(1);
         y();
       }, 1000);
     });
-  });
-
-  it('adds numbers', () => {
-    const result = add(2, 22); //
-    expect(result).toBe(5);
   });
 
   it('finds min number', () => {
