@@ -5,7 +5,7 @@ describe('calculator', () => {
   it('adds numbers', () => {
     
     const result = add(2, 2); //
-    expect(result).toBe(4);
+    expect(result).toBe(5);
   });
 
   it('calculates Fibonacci sequence', () => {
